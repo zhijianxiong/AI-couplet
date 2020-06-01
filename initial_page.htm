@@ -1,0 +1,81 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>对联项目</title>
+<style type="text/css">
+.label_title {/*标签属性*/
+    font-size: 25px;
+    font-family: 华文行楷;
+ 
+    width: 400px;/*颜色背景长度*/
+    height: 50px;/*设定背景宽度*/
+
+    text-align: center;
+ 
+    color: black;/*label标签后所输入的字的颜色*/
+    background-color: #FF0000;
+    border-radius: 4px;/*圆角边框，半径为6px*/
+}
+.label_put {/*标签属性*/
+    font-size: 40px;
+    font-family: 华文行楷;
+ 
+    width: 50px;/*颜色背景长度*/
+
+    text-align: center;
+ 
+    color: black;/*label标签后所输入的字的颜色*/
+    background-color: #FF0000;
+    border-radius: 4px;/*圆角边框，半径为6px*/
+}
+#btn {/*按钮属性*/
+	font-size: 25px;
+	font-family: 华文行楷;
+	width: 120px;
+	height: 28px;
+	/*line-height: 28px;*/
+	text-align: center;/*文字置中对齐*/
+	color: #1B1B1B;/*字体颜色*/
+	background-color: #FF0000;
+	border-radius: 6px;/*圆角边框，半径为6px*/
+	border: 0;	/*float: center;*/
+}
+</style>
+</head>
+
+<body style="text-align: center" background="chun2.jpg">
+
+
+<form method="POST" action="--WEBBOT-SELF--" onSubmit="location.href='_derived/nortbots.htm';return false;" webbot-onSubmit>
+	<!--webbot bot="SaveResults" U-File="_private/form_results.csv" S-Format="TEXT/CSV" S-Label-Fields="TRUE" startspan --><input TYPE="hidden" NAME="VTI-GROUP" VALUE="0"><!--webbot bot="SaveResults" i-checksum="43374" endspan -->
+	<br><br><br>
+	<br><br>
+	<p align="center"><label class="label_title"> 对联自动生成器</label>　</p>
+	<br>
+	<br>
+	
+	<p align="center">
+	<font face="华文行楷" size="5">
+	<label> 请输入上联：</label></font>
+	<input type="text" name="input" class="text_field" size="26"/>
+	</p>
+	
+	<p align="center">
+	　</p>
+	<p align="center">
+	<input type="button" value="生成" id="btn">&nbsp;&nbsp;&nbsp;
+	<input type="button" value="清除"id="btn"></p>
+	<br><br>
+	
+	<p align="center">
+	　<label class="label_put">万紫千红总是春</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	  <label class="label_put">五湖四海皆为秋</label>
+	</p>
+</form>
+
+
+</body>
+
+</html>
